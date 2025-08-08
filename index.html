@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juros Compostos</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/imgs/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="pagina">
+        <header class="titulo">
+            <h1>Juros Compostos</h1>
+            <h2>Porém mais simples</h2>
+        </header>
+        <main>
+            <div class="main-inner">
+                <div class="inputs-container">
+                    <div class="container-valores">
+                        <div class="input-item">
+                            <label for="valor-inicial">Valor Inicial</label>
+                            <div class="input-div">
+                                <span>R$</span>
+                                <input type="number" id="valor-inicial" placeholder="00,00">
+                            </div>
+                        </div>
+
+                        <div class="input-item">
+                            <label for="valor-mensal">Valor Mensal (Incremento)</label>
+                            <div class="input-div">
+                                <span>R$</span>
+                                <input type="number" id="valor-mensal" placeholder="00,00">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-taxas">
+                        <div class="input-item">
+                            <label for="taxa-juros">Taxa de Juros</label>
+                            <div class="input-div">
+                                <span>%</span>
+                                <input type="number" id="taxa-juros" placeholder="0.00">
+                            </div>
+
+                            <div class="select-div">
+                                <select name="juros-porcentagem" id="porcentagem-select">
+                                    <option value="mensal">Ao mês</option>
+                                    <option value="anual">Ao ano</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="input-item">
+                            <label for="juros-periodo">Período</label>
+                            <div class="input-div">
+                                <input type="number" id="juros-periodo" placeholder="1">
+                            </div>
+                            <div class="select-div">
+
+                                <select name="juros-periodo" id="periodo-select">
+                                    <option value="periodo-meses">Mês(es)</option>
+                                    <option value="periodo-anos">Ano(s)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button id="calcular">Calcular</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="modal">
+        <div class="modal-container">
+            <div class="linha1">
+                <div class="modal-item">
+
+                    <div class="item-titulo">
+                        <h1>Total Investido</h1>
+                    </div>
+                    <div class="item-valores">
+                        <span>R$</span>
+                        <h2 class="valor-inicial-modal">300,00</h2>
+                    </div>
+                </div>
+
+                <div class="modal-item">
+                    <div class="item-titulo">
+                        <h1>Valor Mensal</h1>
+                    </div>
+                    <div class="item-valores">
+                        <span>R$</span>
+                        <h2 class="valor-mensal-modal">20,00</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="linha2">
+                <div class="modal-item">
+                    <div class="item-titulo">
+                        <h1>Taxa de Juros</h1>
+                        <p class="taxa-periodo-modal">Ao Mês</p>
+                    </div>
+                    <div class="item-valores">
+                        <span>%</span>
+                        <h2 class="taxa-juros-modal">1,12</h2>
+                    </div>
+                </div>
+
+                <div class="modal-item">
+                    <div class="item-titulo">
+                        <h1>Período</h1>
+                    </div>
+                    <div class="item-valores">
+                        <h2 class="periodo-quantidade-modal">2</h2>
+                        <span>meses</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="linha3">
+                <div class="total">
+                    <div class="item-titulo">
+                        <h1>Total</h1>
+                    </div>
+                    <div class="item-valores">
+                        <span>R$</span>
+                        <h2 class="rendimento-total-modal">939,15</h2>
+                    </div>
+                </div>
+
+                <div class="fechar-modal-container">
+                    <button id="fechar-modal">&times;</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js/juros.js"></script>
+</body>
+
+</html>
