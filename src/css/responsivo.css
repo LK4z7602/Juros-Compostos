@@ -1,0 +1,178 @@
+
+
+@media (max-width: 1020px) {
+    .titulo h1 {
+        font-size: 6.6rem;
+    }
+
+    .titulo h2 {
+        font-size: 3rem;
+    }
+
+    .main-inner {
+        padding: 30px 39px;
+    }
+
+    .container-valores {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .container-taxas {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .modal-container {
+        padding: 60px 60px;
+    }
+}
+
+@media (max-width: 840px) {
+    .pagina {
+        padding: 86px 20px;
+    }
+
+    .titulo h1 {
+        font-size: 5.6rem;
+    }
+
+    .titulo h2 {
+        font-size: 3rem;
+    }
+
+    .container-taxas,
+    .container-valores {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .container-valores {
+        margin-bottom: 0px;
+        gap: 40px;
+    }
+
+    .container-taxas {
+        margin-bottom: 40px;
+    }
+
+    .inputs-container {
+        gap: 40px;
+    }
+
+    #calcular {
+        width: 100%;
+        padding: 16px 0;
+    }
+
+    .main-inner {
+        padding: 30px 45px;
+    }
+
+    .linha1,
+    .linha2 {   
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .linha2 {
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+
+    .modal-container {
+        padding: 30px 40px;
+    }
+
+    .modal h1 {
+        font-size: 2rem;
+    }
+
+    .modal h2 {
+        font-size: 3.2rem;
+    }
+
+    .modal span {
+        font-size: 2.6rem;
+    }
+
+    .modal p {
+        font-size: 1.4rem;
+    }
+
+    #fechar-modal {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 420px){
+    .titulo h1{
+        font-size: 4.4rem;
+    }
+
+    .titulo h2{
+        font-size: 2.8rem;
+        padding-top: 10px;
+    }
+
+    .main-inner {
+        padding: 20px 30px;
+    }
+
+    .input-item label {
+        font-size: 1.8rem;
+    }
+
+    .input-item select {
+        font-size: 1.3rem;
+    }
+
+    .input-div input, input::placeholder {
+        font-size: 2rem;
+    }
+
+    .input-div span {
+        font-size: 2rem;
+    }
+
+    .modal-container {
+        padding: 20px 0px;
+    }
+
+    .linha1, .linha2 {
+        gap: 20px;
+        width: 350px;
+    }
+
+    .linha2 {
+        padding-bottom: 30px;
+    }
+
+    .modal h1 {
+        font-size: 1.6rem;
+    }
+
+    .modal h2 {
+        font-size: 2.8em;
+    }
+
+    .modal span {
+        font-size: 2rem;
+    }
+
+    .modal p {
+        font-size: 1.2rem;
+    }
+
+    .item-valores {
+        gap: 6px;
+    }
+
+}

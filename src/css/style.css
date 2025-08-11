@@ -5,6 +5,8 @@ body {
     background-size: cover;
 
     font-family: 'League Spartan', sans-serif;
+
+    overflow: hidden;
 }
 
 
@@ -144,12 +146,12 @@ input[type=number] {
 
 
 .modal {
-    display: none; 
+    display: none;
 
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100dvh;
     width: 100dvw;
     justify-content: center;
@@ -165,13 +167,14 @@ input[type=number] {
     height: auto;
     min-width: 400px;
     min-height: 300px;
-    background: #fff; 
-    border-radius: 16px; 
-    box-shadow: 0 8px 32px rgba(0,0,0,0.25); 
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
     padding: 60px 160px;
 }
 
-.linha1, .linha2 {
+.linha1,
+.linha2 {
     display: flex;
     gap: 190px;
     justify-content: space-between;
@@ -214,17 +217,17 @@ input[type=number] {
     font-weight: 600;
 }
 
-.modal h2{
+.modal h2 {
     font-size: 4.8rem;
 }
 
-.modal span{
+.modal span {
     font-size: 3.6rem;
     font-weight: 600;
     align-self: center;
 }
 
-.modal p{
+.modal p {
     font-size: 1.6rem;
     font-weight: 500;
 }
@@ -243,6 +246,5 @@ input[type=number] {
 #fechar-modal:hover {
     background-color: #6bcece;
 }
-
 
 /* Modal Style*/
