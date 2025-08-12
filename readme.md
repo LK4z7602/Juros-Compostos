@@ -45,3 +45,7 @@ Apenas **acesse o nosso [site](https://juro-composto.vercel.app)**
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Faça um fork do repositório e envie um pull request.
+
+---
+
+Desenvolvido com ❤️💢 por LK4z
