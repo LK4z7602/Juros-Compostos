@@ -1,4 +1,39 @@
+@media (max-width: 1200px) and (max-height: 770px){
+    .pagina {
+        transform: scale(0.9);
+    }
 
+    .titulo h1 {
+        font-size: 5.8rem;
+    }
+
+    .titulo h2 {
+        font-size: 3.6rem;
+    }
+
+    .modal-container {
+        transform: scale(0.9);
+    }
+}
+
+
+@media (max-width: 1200px) and (max-height: 600px){
+    .pagina {
+        transform: scale(0.8);
+    }
+
+    .titulo h1 {
+        font-size: 5.8rem;
+    }
+
+    .titulo h2 {
+        font-size: 3.6rem;
+    }
+
+    .modal-container {
+        transform: scale(0.8);
+    }
+}
 
 @media (max-width: 1020px) {
     .titulo h1 {
@@ -196,23 +231,5 @@
 
     .container-taxas {
         gap: 10px;
-    }
-}
-
-@media (max-width: 1050px) and (max-height: 600px){
-    .pagina {
-        transform: scale(0.8);
-    }
-
-    .titulo h1 {
-        font-size: 5.8rem;
-    }
-
-    .titulo h2 {
-        font-size: 3.6rem;
-    }
-
-    .modal-container {
-        transform: scale(0.8);
     }
 }
