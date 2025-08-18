@@ -1,13 +1,15 @@
 # Juros Compostos - HTML, CSS e JavaScript
 
->  " Juros Compostos "
+>  " Juros Compostos " <br>
 > " Porém mais simples "
 
 Este é um projeto simples para calcular juros compostos utilizando HTML, CSS e JavaScript.
 
 ## Interface - Mobile e Desktop
 
-![Interface Desktop](https://files.catbox.moe/g8bheq.png) ![Interface Mobile (S20 Ultra)](https://files.catbox.moe/1cvjay.png)
+![Exemplo de Cálculo](https://files.catbox.moe/ki46uw.png)
+![Resultado](https://files.catbox.moe/42l8sr.png)
+![Interface Mobile (S20 Ultra)](https://files.catbox.moe/1cvjay.png)
 ![Responsive Viewer](https://files.catbox.moe/zdsa98.png)
 
 ## Funcionalidades
@@ -36,11 +38,6 @@ Apenas **acesse o nosso [site](https://juro-composto.vercel.app)**
     ```
 2. Abra o arquivo `index.html` no navegador.
 3. Insira os valores desejados e veja o resultado.
-
-## Exemplo de Cálculo
-
-![Exemplo de Cálculo](https://files.catbox.moe/ki46uw.png)
-![Resultado](https://files.catbox.moe/42l8sr.png)
 
 ## Contribuição
 
