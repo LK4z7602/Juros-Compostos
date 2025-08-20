@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "src": "/sitemap\\.xml",
+      "headers": {
+        "Cache-Control": "max-age=0, public, must-revalidate"
+      }
+    }
+  ]
+}
